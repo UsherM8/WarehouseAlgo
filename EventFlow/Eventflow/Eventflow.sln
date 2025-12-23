@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventFlowClassLibrary", "..\EventFlow classes\EventFlowClassLibrary.csproj", "{65860C20-E07A-40DA-9D56-89D4C183FF7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventflowConsole", "EventflowConsole\EventflowConsole.csproj", "{657B8CBF-C9BE-4EE1-938E-69E11F0D73E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{65860C20-E07A-40DA-9D56-89D4C183FF7E} = {65860C20-E07A-40DA-9D56-89D4C183FF7E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventFlowTests", "..\EventFlowClassLibraryTests\EventFlowTests.csproj", "{BE8722D5-5253-4B5F-88FE-2FA0A3AE8E21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65860C20-E07A-40DA-9D56-89D4C183FF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65860C20-E07A-40DA-9D56-89D4C183FF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65860C20-E07A-40DA-9D56-89D4C183FF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65860C20-E07A-40DA-9D56-89D4C183FF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657B8CBF-C9BE-4EE1-938E-69E11F0D73E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657B8CBF-C9BE-4EE1-938E-69E11F0D73E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657B8CBF-C9BE-4EE1-938E-69E11F0D73E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657B8CBF-C9BE-4EE1-938E-69E11F0D73E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE8722D5-5253-4B5F-88FE-2FA0A3AE8E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8722D5-5253-4B5F-88FE-2FA0A3AE8E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8722D5-5253-4B5F-88FE-2FA0A3AE8E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8722D5-5253-4B5F-88FE-2FA0A3AE8E21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {891A7391-ABA0-4083-A7BB-172BD7A2B3F2}
+	EndGlobalSection
+EndGlobal
